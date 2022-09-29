@@ -1,0 +1,13 @@
+
+
+Easy
+- Generate new chunks as player moves
+- Only generate chunks near player
+
+Medium
+- Make chunk generation smarter
+- Add physics
+
+Hard
+- Add block placement
+- Add procedural generation using noise
