@@ -38,7 +38,7 @@ Game::Game(int width, int height, const std::string& title)
 	m_Player = std::make_unique<Player>(
 		glm::vec3(0.0f, 0.0f, 0.0f),
 		glm::vec3(0.0f, 0.0f, 1.0f),
-		glm::perspective(glm::radians(45.0f), (float)width / (float)height, 0.1f, 100.0f)
+		glm::perspective(glm::radians(45.0f), (float)width / (float)height, 0.1f, 1000.0f)
 	);
 	m_World = std::make_unique<World>(m_Player->GetPosition());
 

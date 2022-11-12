@@ -2,7 +2,7 @@
 
 namespace Blocks {
 
-	extern constexpr float SCALE = 16.0f / 256.0f;
+	constexpr float SCALE = 16.0f / 256.0f;
 
 	enum class Block {
 		Air, Grass, Dirt, Stone, Log
